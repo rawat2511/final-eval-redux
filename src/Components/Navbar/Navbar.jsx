@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 const links = [
     {
-        to: "/",
-        title: "Home"
+        to: "/reimbursement/add",
+        title: "Apply For Reimbursement"
     },
     {
-        to: "/about",
-        title: "About"
+        to: "/dashboard/user/userID",
+        title: "Users"
     },
     {
         to: "/contact",

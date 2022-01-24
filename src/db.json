@@ -1,19 +1,46 @@
 {
-  "posts": [
+  "adminData" : [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "id": "1234",
+      "name": "Albert",
+      "date": "24/01/2022",
+      "purpose": "Internet",
+      "amount": 1200,
+      "status": "PENDING"
+    },
+    {
+      "id": "1235",
+      "name": "Mandeep",
+      "date": "10/01/2022",
+      "purpose": "Monitor",
+      "amount": 15000,
+      "status": "IN PROGRESS"
     }
   ],
-  "comments": [
+  "users" : [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": "1234",
+      "name": "Albert",
+      "claims": [
+        {
+          "date": "24/01/2022",
+          "purpose": "Internet",
+          "amount": 1200,
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "1235",
+      "name": "Mandeep",
+      "claims": [
+        {
+          "date": "10/01/2022",
+          "purpose": "Monitor",
+          "amount": 15000,
+          "status": "IN PROGRESS"
+        }
+      ]
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
